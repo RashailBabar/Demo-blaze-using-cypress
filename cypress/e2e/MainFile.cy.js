@@ -11,10 +11,10 @@ import { allmodules } from "../support/PlaceOrder"
 describe('This is the Main function', function() {
 //In this we can import all test cases using POM.
 
-////Here we will write test cases for Signup.
+//Here we will write test cases for Signup.
 
     context('Signup Test cases',function(){
-//Here we can create all test cases for signup.
+
     it('Signup test Cases1',function(){
        
         signUp.SignUpTestCases1()
@@ -127,7 +127,7 @@ it('Second test case for about us',function(){
     
 
 })
-//Here we Will perform integration testing to select and place order from cart.
+//Here we Will perform integration testing to select items and place order from cart.
 context('Here we perform Integration testing to select and place order from carts',function(){
 it('First test case of Placing order',function(){
   
