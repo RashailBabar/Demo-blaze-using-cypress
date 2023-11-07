@@ -111,7 +111,7 @@ context('This is for Adding contact info in contact form', function(){
 
 
 // test cases for About US Module.
-context.only('This is for AboutUs test cases',function(){
+context('This is for AboutUs test cases',function(){
 it.only('First test case for about us',function(){
 about_us.AboutUs1()
 
