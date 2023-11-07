@@ -13,7 +13,7 @@ describe('This is the Main function', function() {
 
 //Here we will write test cases for Signup.
 
-    context('Signup Test cases',function(){
+    context.only('Signup Test cases',function(){
 
     it('Signup test Cases1',function(){
        
@@ -112,7 +112,7 @@ context('This is for Adding contact info in contact form', function(){
 
 // test cases for About US Module.
 context('This is for AboutUs test cases',function(){
-it.only('First test case for about us',function(){
+it('First test case for about us',function(){
 about_us.AboutUs1()
 
 })
