@@ -3,3 +3,5 @@
 3. Also, I automate and run the whole flow in which I perform one positive test case on all modules(For this you have to run AllFlow_Main_File.cy.js).
 
 // The reason I mention these two files' names is that I merged all individual modules' test cases on a single file and for the whole flow I created another file
+
+//I also add more test cases and try to structure my code in a good way.
